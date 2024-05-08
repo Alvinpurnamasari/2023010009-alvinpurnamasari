@@ -1,5 +1,1 @@
-const arraySaya = ['🥑', '🍑', '🍏, '🍉', '🍎']
-
-const semangka = arraySaya.includes('')
-
-console.log(semangka)
+console.log('Hello word!!')
