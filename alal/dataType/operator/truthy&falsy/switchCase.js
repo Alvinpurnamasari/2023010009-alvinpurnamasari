@@ -1,12 +1,12 @@
-let language = "korea";
+let language = "jawa";
 let greeting = null;
 
 switch (language){
     case "english":
         greeting = "happy birthday!";
         break;
-    case "indonesia":
-        greeting = "selamat ulang tahun!";
+    case "cina":
+        greeting = "shengri kuaile!";
         break;
     case "jepang":
         greeting = "otanjobiomedeto!";
@@ -24,6 +24,6 @@ switch (language){
         greeting = "sugeng tanggap warsa!";
         break;
      default:
-        greeting = "selamat ulangtahun!";  
+        greeting = "selamat ulang tahun!";  
 }
 console.log(greeting);
