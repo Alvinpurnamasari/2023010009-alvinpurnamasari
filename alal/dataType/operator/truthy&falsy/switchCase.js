@@ -1,17 +1,29 @@
-let language = "french";
+let language = "korea";
 let greeting = null;
 
 switch (language){
     case "english":
-        greeting = "good morning!";
+        greeting = "happy birthday!";
         break;
-    case "french":
-        greeting = "bonjour!";
+    case "indonesia":
+        greeting = "selamat ulang tahun!";
         break;
-    case "japanes":
-        greeting = "gozamaisu!";
+    case "jepang":
+        greeting = "otanjobiomedeto!";
+        break;
+    case "korea":
+        greeting = "saeng-il chughahaeyo!";
+        break;
+    case "italia":
+        greeting = "buon compleanno!";
+        break;
+    case "arab":
+        greeting = "eid milad!";
+        break;
+    case "jawa":
+        greeting = "sugeng tanggap warsa!";
         break;
      default:
-        greeting = "selamat pagi!";  
+        greeting = "selamat ulangtahun!";  
 }
 console.log(greeting);
